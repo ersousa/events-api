@@ -1,12 +1,15 @@
 package com.techevent.events_api.domain.event;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
+import java.util.Date;
 import java.util.UUID;
 
 @Entity(name = "event")
@@ -24,5 +27,5 @@ public class Event {
     private String imgUrl;
     private String eventUrl;
     private Boolean remote;
-    private LocalDate date;
+    private Date date;
 }

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: events-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tech-events
+    username: postgres
+    password: postgres
+
+aws:
+  region: us-east-1
+  bucket:
+    name: tech-events-images
