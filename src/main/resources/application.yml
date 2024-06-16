@@ -10,4 +10,4 @@ spring:
 aws:
   region: us-east-1
   bucket:
-    name: tech-events-images
+    name: techevent-imgs
