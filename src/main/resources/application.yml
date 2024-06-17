@@ -3,9 +3,9 @@ spring:
     name: events-api
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/tech-events
+    url: jdbc:postgresql://tech-events.cvmq0oaqgj4n.us-east-1.rds.amazonaws.com/postgres
     username: postgres
-    password: postgres
+    password: 4nJtDiWLb+W<zr9Be_>s[6nv}v%P
 
 aws:
   region: us-east-1
